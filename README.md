@@ -19,3 +19,7 @@ Variant-like fields (`type`, `size`, `color`, `variant`) are strings. Allowed va
 | UiButton | `components/UiButton.tsx` | `packages/eslink-react/src/components/ui-button` |
 | UiTag | `components/UiTag.tsx` | `packages/eslink-react/src/components/ui-tag` |
 | UiSwitch | `components/UiSwitch.tsx` | `packages/eslink-react/src/components/ui-switch` |
+
+## Preview
+
+`npm install` then `npm run dev` serves a local preview at http://localhost:5173. The preview aliases `figma:react` to a no-op shim. Figma still supplies that module when these files are used as code layers.
